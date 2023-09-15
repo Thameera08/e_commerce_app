@@ -1,3 +1,4 @@
+import 'package:e_commerce_app/home/food_page_body.dart';
 import 'package:e_commerce_app/uis/colors.dart';
 import 'package:e_commerce_app/widgets/big_text.dart';
 import 'package:e_commerce_app/widgets/small_text.dart';
@@ -50,7 +51,8 @@ class _MainFoodPageState extends State<MainFoodPage> {
                   ]
               ),
             ),
-          )
+          ),
+          FoodPageBody(),
         ],
       ),
     );
